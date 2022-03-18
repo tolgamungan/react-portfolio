@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/tolgamungan/react-portfolio",
+  "homepage": "https://tolgamungan.github.io/react-portfolio/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "react": "^16.6.0",
