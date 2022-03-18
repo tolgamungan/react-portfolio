@@ -13,7 +13,7 @@ class App extends Component {
     return (
 
       <Route
-          path="/"
+          // path="/"
           render={() => 
           <div className="App">
             <Header resumeData={resumeData}/>
@@ -22,7 +22,8 @@ class App extends Component {
             <Footer resumeData={resumeData}/>
           </div>
         }
-          exact />
+          // exact 
+          />
 
       //   {/* <Portfolio resumeData={resumeData}/> */}
       //   {/* <Testimonials resumeData={resumeData}/> */}

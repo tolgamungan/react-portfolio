@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "79ed84cf1f235d717261",
+    "revision": "35eb122c2f6104031a5a",
     "url": "/tolgamungan/react-portfolio/static/css/main.2dcf629b.chunk.css"
   },
   {
-    "revision": "79ed84cf1f235d717261",
-    "url": "/tolgamungan/react-portfolio/static/js/main.79ed84cf.chunk.js"
+    "revision": "35eb122c2f6104031a5a",
+    "url": "/tolgamungan/react-portfolio/static/js/main.35eb122c.chunk.js"
   },
   {
     "revision": "c075425bab91b4fc39ea",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/tolgamungan/react-portfolio/static/js/runtime~main.ccc95c05.js"
   },
   {
-    "revision": "bbccfd18b84f9c2f964d1880a3c2c31e",
+    "revision": "39a8f07799eb49b81b578e74c6aab79a",
     "url": "/tolgamungan/react-portfolio/index.html"
   }
 ];
