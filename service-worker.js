@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tolgamungan/react-portfolio/precache-manifest.917474030e5a5dfda552725536465c21.js"
+  "/tolgamungan/react-portfolio/precache-manifest.047000d20083c735263995bcaea06520.js"
 );
 
 workbox.clientsClaim();
