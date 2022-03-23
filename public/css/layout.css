@@ -329,94 +329,111 @@ ul#nav li.current a { color: #F06000; }
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
+   animation: wordpress 2s ease;
+
 }
 .illustrator {
   	width: 55%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
+   animation: wordpress 2s ease;
+
 }
 .wordpress {
   	width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
+  	animation: wordpress 2s ease;
 }
 .mongodb {
   	width: 70%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
+   animation: wordpress 2s ease;
+
 }
 .expressjs {
   	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
+   animation: wordpress 2s ease;
 }
 .reactjs {
   	width: 85%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;  
 }
 .nodejs {
   	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 .typescript {
   	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 .restfulapi {
    width: 80%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 .aspnetcore {
    width: 60%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 .c {
    width: 50%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 .efcore {
    width: 45%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 .docker {
    width: 55%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 .efcore {
    width: 45%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
+@keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes css {
+@keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -543,78 +560,14 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
+   opacity: 1;
 	filter:alpha(opacity=100);
 }
 .portfolio-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
+	opacity: 1;
 	filter:alpha(opacity=100);
-}
-
-/* popup modal */
-.popup-modal {
-	max-width: 550px;
-	background: #fff;
-	position: relative;
-	margin: 0 auto;
-}
-.popup-modal .description-box { padding: 12px 36px 18px 36px; }
-.popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
-	margin-bottom: 12px;
-   color: #111;
-}
-.popup-modal .description-box p {
-	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
-   margin-bottom: 12px;
-}
-.popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   display: block;
-   text-align: left;
-}
-.popup-modal .description-box .categories i {
-   margin-right: 8px;
-}
-.popup-modal .link-box {
-   padding: 18px 36px;
-   background: #111;
-   text-align: left;
-}
-.popup-modal .link-box a {
-   color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-   letter-spacing: 3px;
-   cursor: pointer;
-}
-.popup-modal a:hover {	color: #00CCCC; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
-
-
-/* fadein/fadeout effect for modal popup
-/* ------------------------------------------------------------------ */
-
-/* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
-   opacity: 0;
-   -webkit-transition: all 200ms ease-in-out;
-	-moz-transition: all 200ms ease-in-out;
-	-o-transition: all 200ms ease-in-out;
-	-ms-transition: all 200ms ease-in-out;
-   transition: all 200ms ease-in-out;
-}
-/* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
-   opacity: 1;
-}
-/* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
-   opacity: 0;
 }
 
 /* ------------------------------------------------------------------ */
@@ -760,7 +713,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden;backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
@@ -875,7 +828,7 @@ call-to-action .button {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
-	display: inline-block;
+	/* display: inline-block; */
 	float: left;
    width: 26%;
 }

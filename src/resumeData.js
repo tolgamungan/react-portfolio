@@ -86,24 +86,28 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"react-crypto-dashboard",
+        "description":"React-Typescript-Coingecko API app that displays cryptocurrency data",
+        "imgurl":"https://repository-images.githubusercontent.com/471213306/5add12c8-d356-491f-8026-c5671dd5b137",
+        "reference":"https://github.com/tolgamungan/react-crypto-dashboard"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"launchPad",
+        "description":"ASP.NET MVC app with EF Core",  
+        "imgurl":"https://repository-images.githubusercontent.com/436541987/ae909445-9201-4636-996d-2addadb19048",
+        "reference":"https://github.com/tolgamungan/launchPad"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Contact Management System-PHP-MySQL",
+        "description":"Contact management app that you can add, edit, delete contacts",
+        "imgurl":"https://repository-images.githubusercontent.com/473262627/c33b42b8-0d98-49c5-9f06-e982f66c6bbe",
+        "reference":"https://github.com/tolgamungan/Contact-Management-System-PHP"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"react-portfolio",
+        "description":"React-Bootstrap Portfolio Website",
+        "imgurl":"https://repository-images.githubusercontent.com/468996408/8433fe06-dd6a-473e-a14b-7248bfe84186",
+        "reference":"https://github.com/tolgamungan/react-portfolio"
       }
     ],
     "testimonials":[

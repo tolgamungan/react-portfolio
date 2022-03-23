@@ -19,14 +19,14 @@ class App extends Component {
             <Header resumeData={resumeData}/>
             <About resumeData={resumeData}/>
             <Resume resumeData={resumeData}/>
+            <Portfolio resumeData={resumeData}/>
             <Footer resumeData={resumeData}/>
           </div>
         }
-          // exact 
-          />
-
-      //   {/* <Portfolio resumeData={resumeData}/> */}
-      //   {/* <Testimonials resumeData={resumeData}/> */}
+        // exact 
+        />
+        
+        // {/* <Testimonials resumeData={resumeData}/> */}
       //   {/* <ContactUs resumeData={resumeData}/> */}
     );
   }
