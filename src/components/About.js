@@ -16,9 +16,18 @@ export default class About extends Component {
 
                <h2>About Me</h2>
                <p>
+               {/* { resumeData.aboutme[0].firstParagraph } <br/><br/>
+               { resumeData.aboutme[0].secondParagraph }  */}
+
                {
-                 resumeData.aboutme
+                  resumeData.aboutme.map(item =>{
+                     return(
+                     <p>{item.paragraph}</p>
+                     )
+                  }
+                  )
                }
+                
                </p>
 
                <div className="row">
