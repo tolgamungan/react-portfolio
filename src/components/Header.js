@@ -14,7 +14,7 @@ export default class Header extends Component {
               <li><a className="smoothscroll" href="#about">About</a></li>
               <li><a className="smoothscroll" href="#resume">Skills</a></li>
               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-              <li>Resume</li>
+              <li><a className="header-resume" href="./Tolga_Mungan_Full_Stack_Developer.pdf" target="_blank">Resume</a></li>
                {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
             </ul>
