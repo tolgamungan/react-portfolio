@@ -30,7 +30,7 @@ let resumeData = {
     {"paragraph":"Lately, I've discovered my passion for the world of web development and decided to go to college and study web programming to make it official that I am a web developer now. I've recently graduated from Nova Scotia Community College, IT Web Programming program and I'm now looking for a junior dev position to finally kick start my career and learn among professionals."}
   ],
 
-  "address":"Sydney, NS",
+  "address":"Truro, NS",
   "website":"https://tolgamungan.com/",
   "email":"tmungann@gmail.com",
   "education":[
