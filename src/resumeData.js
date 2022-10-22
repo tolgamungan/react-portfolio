@@ -5,7 +5,7 @@ let resumeData = {
   "role": "Full-Stack Web Developer",
   "linkedinId":"tmungan",
   "skypeid": "skypeid",
-  "roleDescription": "👨🏻‍💻 located in Sydney, NS.",
+  "roleDescription": "👨🏻‍💻 located in Truro, NS.",
   "socialLinks":[
       {
         "name":"linkedin",
