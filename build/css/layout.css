@@ -220,7 +220,15 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .row { 
+   margin: 0 auto !important;
+   display: flex;
+   justify-content: center;
+}
+#about .contact-details { 
+   width: 41.66667%; 
+}
+
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -362,7 +370,7 @@ ul#nav li.current a { color: #F06000; }
 
 }
 .expressjs {
-  	width: 70%;
+  	width: 78%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
    animation: wordpress 2s ease;
@@ -416,6 +424,12 @@ ul#nav li.current a { color: #F06000; }
    animation: wordpress 2s ease;
 }
 .efcore {
+   width: 45%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+   animation: wordpress 2s ease;
+}
+.python{
    width: 45%;
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
