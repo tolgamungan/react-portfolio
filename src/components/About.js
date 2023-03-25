@@ -22,7 +22,7 @@ export default class About extends Component {
                {
                   resumeData.aboutme.map(item =>{
                      return(
-                     <p>{item.paragraph}</p>
+                     <p key={item.url}>{item.paragraph}</p>
                      )
                   }
                   )
@@ -34,16 +34,16 @@ export default class About extends Component {
 
                   <div className="columns contact-details">
 
-                  <h2>Contact Details</h2>
-                  <p className="address">
-       						<span>{resumeData.name} {resumeData.lastname}</span>
+                     <h2>Contact Details</h2>
+                     <p className="address">
+                           <span>{resumeData.name} {resumeData.lastname}</span>
+                        <br></br>
+                              <span>
+                        {resumeData.address}
+                     </span>
                      <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.email}</span>
-       					   </p>
+                     <span>{resumeData.email}</span>
+                           </p>
                   </div>
                </div>
             </div>

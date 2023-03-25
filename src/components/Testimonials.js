@@ -12,7 +12,7 @@ export default class Testimonials extends Component {
                   {
                     resumeData.testimonials && resumeData.testimonials.map((item)=>{
                       return(
-                        <li>
+                        <li key={item.url}>
                           <blockquote>
                             <p>
                             {item.description}

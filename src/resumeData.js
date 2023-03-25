@@ -86,8 +86,12 @@ let resumeData = {
     },
     {
       "skillname":"EF Core"
-    },{
+    },
+    {
       "skillname":"Docker"
+    },
+    {
+      "skillname":"Python"
     }
   ],
   "portfolio":[
@@ -130,9 +134,20 @@ let resumeData = {
     {
       "title" : "IBM Cloud Application Development Foundations Specialization",
       "issuer" : "IBM",
-      "date" : "2022-12",
-      "imageLink" : "https://images.credly.com/size/340x340/images/3545154f-08b4-4f6f-9592-c356d7108965/Developing_Cloud_Native_Applications.png"
-
+      "date" : "2022-11",
+      "imageLink" : "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TEFAAG366VS9/CERTIFICATE_LANDING_PAGE~TEFAAG366VS9.jpeg"
+    },
+    {
+      "title" : "IBM Cloud Essentials",
+      "issuer" : "IBM",
+      "date" : "2022-11",
+      "imageLink" : "https://images.credly.com/size/340x340/images/58e2cad5-5551-44a6-8285-06d6a4aa9cb3/IBM_Cloud_Essentials.png"
+    },
+    {
+      "title" : "Developing Cloud Apps with Node.js and React",
+      "issuer" : "IBM",
+      "date" : "2022-11",
+      "imageLink" : "https://images.credly.com/size/340x340/images/73c1a67e-b3e8-44f1-a049-a91532e4f19c/Developing_Cloud_Apps_with_Node.js_and_React.png"
     }
   ]
 }

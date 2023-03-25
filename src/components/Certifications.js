@@ -4,9 +4,10 @@ import './../App.css';
 const Certifications = ({resumeData}) => {
   const {certifications} = resumeData;
 
-//   const img = document.createElement("img");
-//     img.src = resumeData.imageLink;
-//     document.getElementById("image-container").appendChild(img);
+  const formatDate = (dateString) => {
+    const [year, month] = dateString.split('-');
+    return new Date(`${year}-${month}-01`).toLocaleString("default", {month: "long" }) + `, ${year}`;
+  };
     /*
     I created a functional component instead of a class component with a render() method because 
     functional components are the more modern and 
@@ -32,7 +33,7 @@ return (
                     <div className="certifications__details">
                         <h3 className="certifications__cert-title">{certification.title}</h3>
                         <p className="certifications__cert-issuer">{certification.issuer}</p>
-                        <p className="certifications__cert-date">{certification.date}</p>
+                        <p className="certifications__cert-date">{formatDate(certification.date)}</p>
                     </div>
                 </div>
 
