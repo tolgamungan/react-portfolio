@@ -130,7 +130,8 @@ let resumeData = {
     {
       "title" : "IBM Cloud Application Development Foundations Specialization",
       "issuer" : "IBM",
-      "date" : "2022-12"
+      "date" : "2022-12",
+      "imageLink" : "https://images.credly.com/size/340x340/images/3545154f-08b4-4f6f-9592-c356d7108965/Developing_Cloud_Native_Applications.png"
 
     }
   ]

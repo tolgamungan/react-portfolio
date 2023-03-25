@@ -31,7 +31,6 @@
   }
 }
 
-
 /* Certifications */
 .certifications {
   background-color: #f0f0f0;
@@ -54,8 +53,25 @@
   padding: 1rem 0;
 }
 
-.certifications__list-item:last-child {
-  border-bottom: none;
+.certifications__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certifications__image {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.certifications__details {
+  flex-grow: 1;
+  text-align: center;
 }
 
 .certifications__cert-title {
@@ -72,5 +88,5 @@
 
 .certifications__cert-date {
   color: #999;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }

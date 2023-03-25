@@ -4,6 +4,9 @@ import './../App.css';
 const Certifications = ({resumeData}) => {
   const {certifications} = resumeData;
 
+//   const img = document.createElement("img");
+//     img.src = resumeData.imageLink;
+//     document.getElementById("image-container").appendChild(img);
     /*
     I created a functional component instead of a class component with a render() method because 
     functional components are the more modern and 
@@ -17,17 +20,28 @@ const Certifications = ({resumeData}) => {
   
 return (
     <section className="certifications">
+
         <h2 className="certifications__title">Certifications</h2>
         <ul className="certifications__list">
         {certifications.map((certification) => (
             <li key={certification.id} className="certifications__list-item">
-            <h3 className="certifications__cert-title">{certification.title}</h3>
-            <p className="certifications__cert-issuer">{certification.issuer}</p>
-            <p className="certifications__cert-date">{certification.date}</p>
+                
+                <div className="certifications__item">
+                    <img src={certification.imageLink} alt={certification.title} className="certifications__image" />
+                    
+                    <div className="certifications__details">
+                        <h3 className="certifications__cert-title">{certification.title}</h3>
+                        <p className="certifications__cert-issuer">{certification.issuer}</p>
+                        <p className="certifications__cert-date">{certification.date}</p>
+                    </div>
+                </div>
+
             </li>
         ))}
         </ul>
     </section>
+
+
     );
 };
 
