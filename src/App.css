@@ -33,7 +33,8 @@
 
 /* Certifications */
 .certifications {
-  background-color: #f0f0f0;
+  padding-top: 5% !important;
+  background-color: #ffffff;
   padding: 1rem;
 }
 
@@ -56,22 +57,29 @@
 .certifications__item {
   display: flex;
   align-items: center;
+  /* padding-left: 5% !important; */
+  /* padding-right: 15% !important; */
+  margin-right: auto;
+  margin-left: auto;
   justify-content: center;
+  
 }
 
 .certifications__image {
-  width: 6rem;
-  height: 6rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 50%;
   /* overflow: hidden; */
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   object-fit: cover;
   flex-shrink: 0;
+  
 }
 
 .certifications__details {
   flex-grow: 1;
   text-align: center;
+  max-width: 50%;
 }
 
 .certifications__cert-title {
@@ -93,5 +101,30 @@
 
 /* Projects Pop-up */
 .img-fluid{
-  max-width: 300px;
+  max-width: 600px;
+  border-radius: 8px;
 }
+.modal{
+  /* background:rgba(255, 255, 255, 0.765); */
+  background-color: #ffffff;
+
+}
+
+body.modal-open {
+  overflow: auto !important; 
+}
+
+@media (max-width: 720px) {
+  .modal-dialog {
+    /* max-width: 90%; */
+  }
+  .modal-body {
+    font-size: 14px;
+    padding: 40px;
+  }
+  .img-fluid{
+    max-width: 80%;
+    border-radius: 8px;
+  }
+}
+
