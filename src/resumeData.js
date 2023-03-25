@@ -125,6 +125,14 @@ let resumeData = {
       "description":"This is a sample testimonial",
       "name":"Some technical guy"
     }
+  ],
+  "certifications" : [
+    {
+      "title" : "IBM Cloud Application Development Foundations Specialization",
+      "issuer" : "IBM",
+      "date" : "2022-12"
+
+    }
   ]
 }
 

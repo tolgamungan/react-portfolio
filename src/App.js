@@ -8,6 +8,7 @@ import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import Certifications from './components/Certifications';
 class App extends Component {
   render() {
     return ( 
@@ -19,6 +20,7 @@ class App extends Component {
             <Header resumeData={resumeData}/>
             <About resumeData={resumeData}/>
             <Resume resumeData={resumeData}/>
+            <Certifications resumeData={resumeData} />
             <Portfolio resumeData={resumeData}/>
             <Footer resumeData={resumeData}/>
           </div>
@@ -26,7 +28,7 @@ class App extends Component {
         // exact 
         />
         
-        // {/* <Testimonials resumeData={resumeData}/> */}
+        // <Testimonials resumeData={resumeData}/>
       //   {/* <ContactUs resumeData={resumeData}/> */}
     );
   }
