@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -219,6 +219,9 @@ ul#nav li.current a { color: #F06000; }
    width: 120px;
    height: 120px;
    border-radius: 100%;
+   margin-bottom: 40px;
+   /* border: #0D0D0D 30px solid; */
+   
 }
 #about .row { 
    margin: 0 auto !important;
@@ -255,7 +258,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 30px;
    overflow: hidden;
 }
 
@@ -298,15 +301,22 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+#resume .skill{
+   border-bottom: 1px solid #E8E8E8 !important;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
+
 
 .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
 	text-align: left;
+   
 }
 .bars .skills {
   	margin-top: 36px;

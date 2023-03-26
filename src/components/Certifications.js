@@ -21,8 +21,16 @@ const Certifications = ({resumeData}) => {
   
 return (
     <section className="certifications">
+        <div className="row skill">
 
-        <h2 className="certifications__title">Certifications</h2>
+            <div className="three columns header-col">
+                <h1 className="certifications__title">
+                    Certifications
+                </h1>
+            </div>
+        </div>
+
+
         <ul className="certifications__list">
         {certifications.map((certification) => (
             <li key={certification.id} className="certifications__list-item">
