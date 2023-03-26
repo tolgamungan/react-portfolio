@@ -258,7 +258,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 30px;
    overflow: hidden;
 }
 
@@ -301,15 +301,22 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+#resume .skill{
+   border-bottom: 1px solid #E8E8E8 !important;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
+
 
 .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
 	text-align: left;
+   
 }
 .bars .skills {
   	margin-top: 36px;
