@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Route, Routes } from "react-router-dom";
 import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
@@ -10,18 +9,17 @@ import Certifications from './components/Certifications';
 
 class App extends Component {
   render() {
-    return ( 
+    return (
       <div className="App">
         <Header resumeData={resumeData}/>
-        <Routes>
-          <Route path="/" element={<About resumeData={resumeData} />} />
-          <Route path="/resume" element={<Resume resumeData={resumeData} />} />
-          <Route path="/certifications" element={<Certifications resumeData={resumeData} />} />
-          <Route path="/portfolio" element={<Portfolio resumeData={resumeData} />} />
-        </Routes>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Certifications resumeData={resumeData} />
+        <Portfolio resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
     );
   }
 }
+
 export default App;
