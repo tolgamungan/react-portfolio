@@ -39,11 +39,7 @@
 }
 
 .certifications__title {
-  /* color: #333;
-  font-size: 1.5rem;
-  margin-bottom: 1rem; */
   display: inline-block;
-
   border-bottom: 3px solid #11ABB0;
   padding-bottom: 6px;
   font: 18px/24px 'opensans-bold', sans-serif;
@@ -120,7 +116,6 @@
 .modal{
   /* background:rgba(255, 255, 255, 0.765); */
   background-color: #ffffff;
-
 }
 
 body.modal-open {
@@ -174,4 +169,3 @@ body.modal-open {
     padding-right: 6%;
   }
 }
-
