@@ -1,4 +1,4 @@
-# My Personal Portfolio
+# My Portfolio
 
 This repository contains the code for my personal portfolio website. The site is built using React and styled with CSS.
 
@@ -9,7 +9,7 @@ This repository contains the code for my personal portfolio website. The site is
 - License
 
 ## Installation
-To run this project locally, first clone the repository:
+To run this project locally, first, clone the repository:
 
 ```bash
 git clone https://github.com/tolgamungan/react-portfolio.git
