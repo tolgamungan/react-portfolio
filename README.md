@@ -17,7 +17,7 @@ git clone https://github.com/tolgamungan/react-portfolio.git
 Next, navigate to the project directory and install the required dependencies:
 ```bash
 cd react-portfolio
-npm install
+npm install 
 ```
 ## Usage
 To start the development server and view the project in your browser, run:
